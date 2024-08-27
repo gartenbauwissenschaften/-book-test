@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Dependencies and render Book
         run: |
-          R -e 'install.packages(c("bookdown"))'
+          R -e 'install.packages(c("bookdown","downlit","xml2"))'
           R -e 'if (!requireNamespace("remotes")) install.packages("remotes")'
           R -e 'bookdown::render_book("index.Rmd")'
 
