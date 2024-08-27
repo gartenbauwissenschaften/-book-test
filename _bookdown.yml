@@ -1,4 +1,4 @@
-book_filename: book-test
+book_filename: 'book-test'
 new_session: yes
 before_chapter_script: _common.R
 delete_merged_file: yes
@@ -6,10 +6,11 @@ language:
   ui:
     chapter_name: 'Chapter '
 rmd_files:
+- index.rmd
 - 01-intro.Rmd
 - 02-cross-refs.Rmd
 - 03-parts.Rmd
 - 04-citations.Rmd
-# - 05-blocks.Rmd
-# - 06-share.Rmd
-# - 07-references.Rmd
+- 05-blocks.Rmd
+- 06-share.Rmd
+- 07-references.Rmd
