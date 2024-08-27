@@ -5,3 +5,11 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
+
+rmd_files:
+  - index.Rmd
+  - chapter1.Rmd
+  - chapter2.Rmd
+  # Exclude other chapters for now
+  # - chapter3.Rmd
+  # - chapter4.Rmd
