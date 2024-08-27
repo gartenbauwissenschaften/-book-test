@@ -6,7 +6,7 @@ language:
   ui:
     chapter_name: 'Chapter '
 rmd_files:
-- index.rmd
+- index.Rmd
 - 01-intro.Rmd
 - 02-cross-refs.Rmd
 - 03-parts.Rmd
