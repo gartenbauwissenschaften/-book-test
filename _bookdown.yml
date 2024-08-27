@@ -1,15 +1,15 @@
-book_filename: "book-test"
-new_session: true
+book_filename: book-test
+new_session: yes
 before_chapter_script: _common.R
-delete_merged_file: true
+delete_merged_file: yes
 language:
   ui:
-    chapter_name: "Chapter "
-
+    chapter_name: 'Chapter '
 rmd_files:
-  - index.Rmd
-  - chapter1.Rmd
-  - chapter2.Rmd
-  # Exclude other chapters for now
-  # - chapter3.Rmd
-  # - chapter4.Rmd
+- 01-intro.Rmd
+- 02-cross-refs.Rmd
+- 03-parts.Rmd
+- 04-citations.Rmd
+# - 05-blocks.Rmd
+# - 06-share.Rmd
+# - 07-references.Rmd
