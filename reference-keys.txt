@@ -1,5 +1,7 @@
 fig:nice-fig
 tab:nice-tab
+eq:binom
+thm:tri
 about
 usage
 render-book
@@ -13,3 +15,7 @@ parts
 footnotes-and-citations
 footnotes
 citations
+blocks
+equations
+theorems-and-proofs
+callout-blocks
