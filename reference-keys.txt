@@ -10,3 +10,6 @@ cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
 parts
+footnotes-and-citations
+footnotes
+citations
